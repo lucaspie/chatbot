@@ -23,6 +23,29 @@
     {
       "question": "Ok, vou te ensinar a automatizar um sistema",
       "answer": "quit"
+    },
+    {
+      "question": "Gostaria de me cadastrar",
+      "answer": "quit"
+    },
+    {
+      "question": "Olá, bom dia!",
+      "answer": "Bom dia! Como posso te ajudar?"
+    },
+    {
+      "question": "cadastrar",
+      "answer": "Bot: Vamos criar um cadastro de teste.",
+      "action": "cadastrar"
+    },
+    {
+      "question": "liberar acesso",
+      "answer": "Bot: Vamos liberar o acesso do usuário.",
+      "action": "liberar_acesso"
+    },
+    {
+      "question": "gerar relatório",
+      "answer": "Bot: Gerando relatório...",
+      "action": "generate_report"
     }
   ]
 }
