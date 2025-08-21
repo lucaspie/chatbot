@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Olá",
+      "answer": "Oi! Como posso te ajudar hoje?"
+    },
+    {
+      "question": "Qual seu nome?",
+      "answer": "Eu sou um chatbot simples feito em Python!"
+    },
+    {
+      "question": "Quem te criou?",
+      "answer": "Fui criado pelo Lucas, usando Python e JSON para armazenar meu conhecimento."
+    },
+    {
+      "question": "O que você sabe fazer?",
+      "answer": "Eu aprendo perguntas e respostas novas que você me ensina e tento responder o que já sei."
+    },
+    {
+      "question": "Tchau",
+      "answer": "Até mais! Foi bom conversar com você."
+    },
+    {
+      "question": "Ok, vou te ensinar a automatizar um sistema",
+      "answer": "quit"
+    }
+  ]
+}
