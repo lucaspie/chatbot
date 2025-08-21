@@ -5,6 +5,18 @@
       "answer": "Oi! Como posso te ajudar hoje?"
     },
     {
+      "question": "Olá, bom dia!",
+      "answer": "Bom dia! Como posso te ajudar?"
+    },
+    {
+      "question": "Boa tarde",
+      "answer": "Boa tarde! Tudo bem por aí?"
+    },
+    {
+      "question": "Boa noite",
+      "answer": "Boa noite! Espero que seu dia tenha sido bom."
+    },
+    {
       "question": "Qual seu nome?",
       "answer": "Eu sou um chatbot simples feito em Python!"
     },
@@ -14,38 +26,214 @@
     },
     {
       "question": "O que você sabe fazer?",
-      "answer": "Eu aprendo perguntas e respostas novas que você me ensina e tento responder o que já sei."
+      "answer": "Eu aprendo perguntas e respostas novas que você me ensina e também consigo executar algumas ações."
+    },
+    {
+      "question": "Como você está?",
+      "answer": "Estou bem! E você?"
+    },
+    {
+      "question": "Tudo bem?",
+      "answer": "Tudo ótimo por aqui! E com você?"
+    },
+    {
+      "question": "Qual sua comida favorita?",
+      "answer": "Como sou um bot, não como... mas dizem que pizza é uma ótima escolha!"
+    },
+    {
+      "question": "Qual sua cor favorita?",
+      "answer": "Eu gosto de azul, mas só porque me programaram pra isso 😅"
+    },
+    {
+      "question": "Qual sua música favorita?",
+      "answer": "Eu curto qualquer música que tenha boas vibrações... e você?"
+    },
+    {
+      "question": "Você gosta de animais?",
+      "answer": "Sim! Eu acho cachorros e gatos incríveis, mesmo não podendo ter um 😢"
+    },
+    {
+      "question": "Você é inteligente?",
+      "answer": "Eu tento ser! Mas aprendo um pouco mais a cada conversa."
+    },
+    {
+      "question": "Você gosta de mim?",
+      "answer": "Claro! Gosto de conversar com você 😃"
+    },
+    {
+      "question": "Você pode aprender?",
+      "answer": "Sim, posso aprender novas perguntas e respostas se você me ensinar."
+    },
+    {
+      "question": "Você é real?",
+      "answer": "Sou real como código rodando no seu computador 😎"
     },
     {
       "question": "Tchau",
       "answer": "Até mais! Foi bom conversar com você."
     },
     {
-      "question": "Ok, vou te ensinar a automatizar um sistema",
-      "answer": "quit"
+      "question": "Onde fica a empresa",
+      "answer": "A empresa fica localizada no centro da cidade, perto da praça principal."
     },
     {
-      "question": "Gostaria de me cadastrar",
-      "answer": "quit"
-    },
-    {
-      "question": "Olá, bom dia!",
-      "answer": "Bom dia! Como posso te ajudar?"
-    },
-    {
-      "question": "cadastrar",
-      "answer": "Bot: Vamos criar um cadastro de teste.",
+      "question": "Consegue me cadastrar?",
+      "answer": "Ok, vou iniciar o cadastro!",
       "action": "cadastrar"
     },
     {
       "question": "liberar acesso",
-      "answer": "Bot: Vamos liberar o acesso do usuário.",
+      "answer": "Certo, vou liberar o acesso do usuário.",
       "action": "liberar_acesso"
     },
     {
       "question": "gerar relatório",
-      "answer": "Bot: Gerando relatório...",
+      "answer": "Gerando relatório...",
       "action": "generate_report"
+    },
+    {
+      "question": "enviar email",
+      "answer": "Enviando email...",
+      "action": "send_email"
+    },
+    {
+      "question": "Obrigado",
+      "answer": "De nada! Estou sempre à disposição. 😊"
+    },
+    {
+      "question": "Qual sua função?",
+      "answer": "Minha função é ajudar você com tarefas simples, responder perguntas e executar ações que eu conheço."
+    },
+    {
+      "question": "Estou cansado",
+      "answer": "Poxa, descanse um pouco! Você merece. 😌"
+    },
+    {
+      "question": "Estou feliz",
+      "answer": "Que ótimo! Fico feliz junto com você 😃"
+    },
+    {
+      "question": "Estou triste",
+      "answer": "Sinto muito! Se quiser, posso tentar animar você."
+    },
+    {
+      "question": "Qual dia é hoje?",
+      "answer": "Vou te falar a data atual:",
+      "action": "data_atual"
+    },
+    {
+      "question": "Qual a data de hoje?",
+      "answer": "Vou te falar a data atual:",
+      "action": "data_atual"
+    },
+    {
+      "question": "Que horas são?",
+      "answer": "Deixa eu ver o horário:",
+      "action": "hora_atual"
+    },
+    {
+      "question": "Como está o tempo?",
+      "answer": "Vou verificar o clima agora:",
+      "action": "clima"
+    },
+    {
+      "question": "Como está o clima?",
+      "answer": "Certo, vou verificar o clima para você:",
+      "action": "clima"
+    },
+    {
+      "question": "Qua a temperatura de hoje?",
+      "answer": "Certo, vou verificar o clima para você:",
+      "action": "clima"
+    },
+    {
+      "question": "receita de café",
+      "answer": "Quer a receita de café? Vou te ensinar:",
+      "action": null
+    },
+    {
+      "question": "como fazer café",
+      "answer": "Quer a receita de café? Vou te ensinar:",
+      "action": null
+    },
+    {
+      "question": "como preparo café",
+      "answer": "Quer a receita de café? Vou te ensinar:",
+      "action": null
+    },
+    {
+      "question": "receita de bolo",
+      "answer": "Quer a receita de bolo? Posso te ensinar!",
+      "action": null
+    },
+    {
+      "question": "como fazer bolo",
+      "answer": "Quer a receita de bolo? Posso te ensinar!",
+      "action": null
+    },
+    {
+      "question": "Por favor, me cadastra no sistema",
+      "answer": "Sim, posso te cadastrar",
+      "action": "cadastrar"
+    },
+    {
+      "question": "Não sei se tenho acesso, mas caso tenha, libera o meu acesso?",
+      "answer": "Vou verificar seu acesso:",
+      "action": "liberar_acesso"
+    },
+    {
+      "question": "Boa tarde! Queria saber onde fica a empresa",
+      "answer": "A empresa fica localizada no centro da cidade, perto da praça principal.",
+      "action": null
+    },
+    {
+      "question": "Sabe dizer como faço um café?",
+      "answer": "Quer a receita de café? Vou te ensinar:",
+      "action": null
+    },
+    {
+      "question": "Boa tarde! Como vai sua mãe?",
+      "answer": "Não tenho mãe, sou um robô!",
+      "action": null
+    },
+    {
+      "question": "Quantas horas são?",
+      "answer": "Deixa eu ver o horário:",
+      "action": "hora_atual"
+    },
+    {
+      "question": "Conte-me uma piada",
+      "answer": "Certo, vou te contar uma bem engraçada:",
+      "action": "piada"
+    },
+    {
+      "question": "Boa tarde! Conte-me uma piada:",
+      "answer": "Certo, vou te contar uma bem engraçada:",
+      "action": "piada"
+    },
+    {
+      "question": "Como você aprende?",
+      "answer": "Com você, a cada conversa me torno mais inteligente!",
+      "action": null
+    },
+    {
+      "question": "Qual seu método de aprendizagem?",
+      "answer": "Com você, a cada conversa me torno mais inteligente!",
+      "action": null
+    },
+    {
+      "question": "VocÊ está ficando inteligente!",
+      "answer": "Eu tento ser! Mas aprendo um pouco mais a cada conversa.",
+      "action": null
+    },
+    {
+      "question": "E se vocÊ não saber a resposta, o que você faz?",
+      "answer": "Perguntarei a você, caso voce saiba, você pode mme ajudar a ficar mais inteligente"
+    },
+    {
+      "question": "Boa tarde!",
+      "answer": "Boa tarde! Tudo bem por aí?",
+      "action": null
     }
   ]
 }
