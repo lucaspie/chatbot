@@ -234,6 +234,16 @@
       "question": "Boa tarde!",
       "answer": "Boa tarde! Tudo bem por aí?",
       "action": null
+    },
+    {
+      "question": "Boa noite!",
+      "answer": "Boa noite! Espero que seu dia tenha sido bom.",
+      "action": null
+    },
+    {
+      "question": "Consegue liberar meu acesso?",
+      "answer": "Certo, vou liberar o acesso do usuário.",
+      "action": "liberar_acesso"
     }
   ]
 }

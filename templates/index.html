@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatBot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container py-4">
+        <h2 class="mb-3">🤖 ChatBot Inteligente</h2>
+        <div id="chat-box" class="border rounded p-3 mb-3 bg-white" style="height: 400px; overflow-y: auto;">
+        </div>
+
+        <div class="input-group">
+            <input id="pergunta" type="text" class="form-control" placeholder="Digite sua pergunta...">
+            <button class="btn btn-primary" onclick="enviarPergunta()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        async function enviarPergunta() {
+            const pergunta = document.getElementById("pergunta").value;
+            if (!pergunta.trim()) return;
+
+            adicionarMensagem("Você", pergunta);
+            document.getElementById("pergunta").value = "";
+
+            const response = await fetch("/perguntar", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({pergunta})
+            });
+
+            const data = await response.json();
+            adicionarMensagem("Bot", data.resposta);
+        }
+
+        function adicionarMensagem(remetente, mensagem) {
+            const chatBox = document.getElementById("chat-box");
+            const div = document.createElement("div");
+            div.innerHTML = `<strong>${remetente}:</strong> ${mensagem}`;
+            chatBox.appendChild(div);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
