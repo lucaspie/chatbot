@@ -259,6 +259,41 @@
       "question": "Sabe me dizer como faço para me cadastrar no sistema?",
       "answer": "Sim, posso te cadastrar",
       "action": "cadastrar"
+    },
+    {
+      "question": "Olá, boa tarde!",
+      "answer": "Boa tarde! Tudo bem por aí?",
+      "action": null
+    },
+    {
+      "question": "Saberia dizer, qual o maior avião do mundo?",
+      "answer": "Quer a receita de café? Vou te ensinar:",
+      "action": null
+    },
+    {
+      "question": "Não quero receita de café! Quero saber qual o maior avião do mundo",
+      "answer": "",
+      "action": null
+    },
+    {
+      "question": "Gostaria de realizar meu cadastro",
+      "answer": "Ok, vou iniciar o cadastro!",
+      "action": "cadastrar"
+    },
+    {
+      "question": "libere eu acesso por favor",
+      "answer": "Certo, vou liberar o acesso do usuário.",
+      "action": "liberar_acesso"
+    },
+    {
+      "question": "realize meu cadastro por favor?",
+      "answer": "Certo, vou liberar o acesso do usuário.",
+      "action": "liberar_acesso"
+    },
+    {
+      "question": "O que aconteceu com o Michael Jackson?",
+      "answer": "o的四个声调分别是什么？_百度知道",
+      "action": null
     }
   ]
 }
