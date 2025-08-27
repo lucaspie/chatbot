@@ -244,6 +244,21 @@
       "question": "Consegue liberar meu acesso?",
       "answer": "Certo, vou liberar o acesso do usuário.",
       "action": "liberar_acesso"
+    },
+    {
+      "question": "Queria saber como faço para achar o endereço da empresa?",
+      "answer": "A empresa fica localizada no centro da cidade, perto da praça principal.",
+      "action": null
+    },
+    {
+      "question": "Sabe me ensinar a fazer um bolo de chocolate?",
+      "answer": "Não encontrei informações confiáveis online.",
+      "action": null
+    },
+    {
+      "question": "Sabe me dizer como faço para me cadastrar no sistema?",
+      "answer": "Sim, posso te cadastrar",
+      "action": "cadastrar"
     }
   ]
 }
